@@ -50,7 +50,7 @@ module.exports = function (grunt) {
         },
         serve: {
             options: {
-               'path': '/Users/zee/Desktop/Optimize/index.html',
+               'path': './index.html',
                 port: 9000
             }
 

@@ -27,6 +27,8 @@ added  `media` attributes to the CSS to load critical CSS.
 * I analyse my webpages to spot critical CSS for rendering above the fold 
 content using this tool: [Critical Path CSS Generator - by Jonas Ohlsson](https://jonassebastianohlsson.com/criticalpathcssgenerator/).
 
+* I also used the grunt plugin `grunt-critical` to analyse and inline critcal css and add script to loadCSS
+
 * Then I inlined the Critical CSS in each individual page and deferred the 
 main CSS file to load at a later time by putting the link before the closing
 body `</body>` tag.
@@ -95,3 +97,4 @@ section and encountered another forced reflow.
       changePizzaSizes(size);
 
 ```
+* I modified the `main.js` file for optimal performance using DRY methodology and fast javascript webAPIs
