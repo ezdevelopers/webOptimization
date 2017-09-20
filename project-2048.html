@@ -6,11 +6,102 @@
     <meta name="description" content="Web optimization project, udacity web optimization">
     <meta name="author" content="Emmanuel Eze">
     <title>Emmanuel Eze: Portfolio</title>
+    <style type="text/css">
+      .hero {
+        border-top: 1px solid #ccc;
+      }
 
-    <style>
-    .hero{border-top:1px solid #ccc}html{font-size:100%;overflow-y:scroll;-ms-text-size-adjust:100%;-webkit-text-size-adjust:none}body{margin:0;font-size:14px;line-height:1.61;font-weight:400;background:#fff;font-family:'Open Sans',sans-serif;color:#333}header p,strong{font-weight:700}a{color:#12C}a:visited{color:#61C}img{border:0;max-width:100%}.container,header{max-width:45em;margin:0 auto}header{padding:0 .5em;color:#C90B0B}header img{border-radius:40px;float:left}header p{font-size:1.5em;padding-left:4em}header p span{font-size:.8em;font-weight:400}.hero{padding:2em;background-color:#f8f8f8;font-size:1.2em;border-bottom:1px solid #ccc}.content{padding:1em}@media only screen and (max-width:500px){p{font-size:12px}header p{padding-left:4.5em}}
+      html {
+        font-size: 100%;
+        overflow-y: scroll;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: none;
+      }
+
+      body {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.61;
+        font-weight: 400;
+        background: #fff;
+      }
+
+      header p,
+      strong {
+        font-weight: 700;
+      }
+
+      body {
+        font-family: 'Open Sans',sans-serif;
+        color: #333;
+      }
+
+      a {
+        color: #12c;
+      }
+
+      a:visited {
+        color: #61c;
+      }
+
+      img {
+        border: 0;
+        max-width: 100%;
+      }
+
+      .container,
+      header {
+        max-width: 45em;
+        margin: 0 auto;
+      }
+
+      header {
+        padding: 0 .5em;
+        color: #c90b0b;
+      }
+
+      header img {
+        border-radius: 40px;
+        float: left;
+      }
+
+      header p {
+        font-size: 1.5em;
+        padding-left: 4em;
+      }
+
+      header p span {
+        font-size: .8em;
+        font-weight: 400;
+      }
+
+      .hero {
+        padding: 2em;
+        background-color: #f8f8f8;
+        font-size: 1.2em;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .content {
+        padding: 1em;
+      }
+
+      @media only screen and (max-width:500px) {
+        p {
+          font-size: 12px;
+        }
+
+        header p {
+          padding-left: 4.5em;
+        }
+      }
+
     </style>
-    <link media="print" href="css/print.css" rel="stylesheet">
+    <link media="print" href="css/print.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <noscript><link media="print" href="css/print.css" rel="stylesheet"></noscript>
+    <link media="screen" href="css/build/style.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <noscript><link media="screen" href="css/build/style.min.css" rel="stylesheet"></noscript>
+    <script>!function(e){"use strict";var t=function(t,n,r){function o(e){if(i.body)return e();setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var l,i=e.document,d=i.createElement("link");if(n)l=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=f,f(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(e){return!1}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r,r.getAttribute("media")),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){t.poly(),e.clearInterval(n)}),e.attachEvent&&e.attachEvent("onload",function(){e.clearInterval(n)})}}}(this);</script>
     <script async src="//www.google-analytics.com/analytics.js"></script>
     <script async src="js/analytics.js"></script>
     
@@ -41,6 +132,5 @@
       <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
     </footer>
     <script src="js/build/perfmatters.min.js"></script>
-    <link media="screen" href="css/build/style.min.css" rel="stylesheet">
-  </body>
+  </div></body>
 </html>
